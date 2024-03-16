@@ -1,0 +1,70 @@
+name: ecommereceapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+  #--------------------Packages Start-------------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #Uitility mangager
+
+
+  #ICONS
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # State Management
+  get: ^4.6.5
+
+  #Prodect Specific
+
+
+  #--------------------Packages End-------------------------#
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  #-----------------------Local assets-----------------------#
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logos/
+
+  #----------------------Local fonts--------------------#
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 300
+
+
+
+  
+  
