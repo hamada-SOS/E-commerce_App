@@ -1,3 +1,5 @@
+import 'package:ecommereceapp/utils/themes/custom_themes/text_theme.dart';
+import 'package:ecommereceapp/utils/themes/custom_themes/elevated_button_theme.dart';
 import 'package:flutter/material.dart';
 
 class TAppTheme{
@@ -9,6 +11,19 @@ class TAppTheme{
     brightness: Brightness.light,
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
-    textTheme: TextTheme(),
+    textTheme: TTextTheme.lightTextTheme,
+    elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme
+
   );
+
+  static ThemeData darkTheme = ThemeData(
+      useMaterial3: true,
+      fontFamily: 'Poppins',
+      brightness: Brightness.dark,
+      primaryColor: Colors.blue,
+      scaffoldBackgroundColor: Colors.black,
+      textTheme: TTextTheme.darkTextTheme
+
+  );
+
 }
